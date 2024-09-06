@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Header from "@/components/Header";
-import ResourcesSection from "@/components/ResourcesSection";
-import AboutSection from "@/components/AboutSection";
+import Resources from "@/components/Resources";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import styles from "./page.module.css";
 
@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Header />
-      <AboutSection />
-      <ResourcesSection />
-
+      <About />
+      <Resources />
+      <Contact />
       <Footer />
     </main>
   );

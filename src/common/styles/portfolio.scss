@@ -1,0 +1,12 @@
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+  @Section: Portfolio
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  display: inline-block;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--highlight-color);
+  }
+}

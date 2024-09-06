@@ -1,10 +1,12 @@
+import styles from '@/common/styles/resources.css';
+
 const ResourcesSection = () => {
   return (
     <>
       <h2 id="resources">resources</h2>
 
-      <section class="resources-sect">
-        <div class="card">
+      <section className="resources-sect">
+        <div className="card">
           <p>Links to useful things: "How-to's", "Cheat Sheets", Documents, Helpers, and Generators. The best we've happened upon.</p>
 
           <ul>
@@ -17,7 +19,7 @@ const ResourcesSection = () => {
             <li><a href="https://makepixelart.com/" target="_blank">Pixel Art Editor</a></li>
           </ul>
 
-          <p>Online Education: Tutorials, Books, Courses, etc. Did we mention everything here is free? There's links to MIT courses, Harvard courses, and much more. The internet is overflowing with free education!</p>
+          <p>Online Education: Tutorials, Books, Courses, etc. Did I mention these are free? There are links to MIT courses, Harvard courses, and much more. The internet is overflowing with free education!</p>
           <ul>
             <li><a href="https://home.edx.org/" target="_blank">EDX.org</a></li>
             <li><a href="https://www.coursera.org/" target="_blank">Coursera</a></li>
